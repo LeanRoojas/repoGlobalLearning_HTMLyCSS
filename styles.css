@@ -1,0 +1,48 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style:none;
+    color: #000;
+    text-decoration: none;
+}
+
+html,body{
+    height: 200%;
+}
+
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/569/169/HD-wallpaper-spots-dots-black-and-white-black.jpg");
+}
+
+header{
+    top:0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: rgba(204, 204, 204, 0.56);
+    padding: .5rem 2rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+}
+
+.list>li>a{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: .5rem;
+
+}
+
+main{
+    display: block;
+
+    padding: 3rem 0 3rem 0 ;
+    background-color: rgba(204, 204, 204, 0.56);
+}
